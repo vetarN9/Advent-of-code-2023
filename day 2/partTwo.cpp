@@ -63,7 +63,7 @@ int main(int argc, char* argv[])
 
         }
 
-            output += colorCounts["red"] * colorCounts["blue"] * colorCounts["green"];
+        output += colorCounts["red"] * colorCounts["blue"] * colorCounts["green"];
     }
 
     std::cout << output << std::endl;
